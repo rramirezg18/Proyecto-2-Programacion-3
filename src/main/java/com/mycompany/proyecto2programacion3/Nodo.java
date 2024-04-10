@@ -1,55 +1,57 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.proyecto2programacion3;
 
-/**
- *
- * @author ianto
- */
 public class Nodo {
-    private Nodo apuntadorArriba;
-    private Nodo apuntadorAbajo;
-    private Nodo apuntadorDerecho;
-    private Nodo apuntadorIzquierdo;
-    
-    public Nodo (){
-        this.apuntadorArriba = null;
-        this.apuntadorAbajo = null;
-        this.apuntadorDerecho = null;
-        this.apuntadorIzquierdo = null;
+    private Vehiculo vehiculo;
+    private Nodo arriba;
+    private Nodo abajo;
+    private Nodo izquierda;
+    private Nodo derecha;
+
+    public Nodo(Vehiculo vehiculo) {
+        this.vehiculo = vehiculo;
+        this.arriba = null;
+        this.abajo = null;
+        this.izquierda = null;
+        this.derecha = null;
     }
 
-    public Nodo getApuntadorArriba() {
-        return apuntadorArriba;
+    public Vehiculo getVehiculo() {
+        return vehiculo;
     }
 
-    public void setApuntadorArriba(Nodo apuntadorArriba) {
-        this.apuntadorArriba = apuntadorArriba;
+    public void setVehiculo(Vehiculo vehiculo) {
+        this.vehiculo = vehiculo;
     }
 
-    public Nodo getApuntadorAbajo() {
-        return apuntadorAbajo;
+    public Nodo getArriba() {
+        return arriba;
     }
 
-    public void setApuntadorAbajo(Nodo apuntadorAbajo) {
-        this.apuntadorAbajo = apuntadorAbajo;
+    public void setArriba(Nodo arriba) {
+        this.arriba = arriba;
     }
 
-    public Nodo getApuntadorDerecho() {
-        return apuntadorDerecho;
+    public Nodo getAbajo() {
+        return abajo;
     }
 
-    public void setApuntadorDerecho(Nodo apuntadorDerecho) {
-        this.apuntadorDerecho = apuntadorDerecho;
+    public void setAbajo(Nodo abajo) {
+        this.abajo = abajo;
     }
 
-    public Nodo getApuntadorIzquierdo() {
-        return apuntadorIzquierdo;
+    public Nodo getIzquierda() {
+        return izquierda;
     }
 
-    public void setApuntadorIzquierdo(Nodo apuntadorIzquierdo) {
-        this.apuntadorIzquierdo = apuntadorIzquierdo;
+    public void setIzquierda(Nodo izquierda) {
+        this.izquierda = izquierda;
+    }
+
+    public Nodo getDerecha() {
+        return derecha;
+    }
+
+    public void setDerecha(Nodo derecha) {
+        this.derecha = derecha;
     }
 }
