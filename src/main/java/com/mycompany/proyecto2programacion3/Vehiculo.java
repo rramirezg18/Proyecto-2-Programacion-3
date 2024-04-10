@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.proyecto2programacion3;
 
-/**
- *
- * @author ianto
- */
 public class Vehiculo {
     private String placa;
     private String color;
@@ -21,6 +13,17 @@ public class Vehiculo {
         this.linea = linea;
         this.modelo = modelo;
         this.propietario = propietario;
+    }
+
+    @Override
+    public String toString() {
+        return "Vehiculo{" +
+                "placa='" + placa + '\'' +
+                ", color='" + color + '\'' +
+                ", linea='" + linea + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", propietario='" + propietario + '\'' +
+                '}';
     }
 
     public String getPlaca() {
@@ -62,10 +65,4 @@ public class Vehiculo {
     public void setPropietario(String propietario) {
         this.propietario = propietario;
     }
-
-    @Override
-    public String toString() {
-        return "Vehiculo{" + "Placa:" + placa + ", Color:" + color + ", Linea:" + linea + ", Modelo:" + modelo + ", Propietario:" + propietario + '}';
-    }
-    
 }
