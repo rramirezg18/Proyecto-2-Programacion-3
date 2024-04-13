@@ -3,6 +3,13 @@
  */
 
 package com.mycompany.proyecto2programacion3;
+/**PROYECTO NO. 2
+ * El proyecto consiste en crear una matriz ortogonal o dinamica para la administracion eficiente de memoria
+ * La matriz almacera datos de vehiculos y permitira ingresar, buscar y eliminar
+ * Jean Klaus Castañeda Santos		7690-22-892
+ * Roberto Antonio Ramírez Gómez	7690-22-12700		
+ * Jonathan Joel Chan Cuellar		7690-22-1805
+ */
 
 import java.util.*;
 
