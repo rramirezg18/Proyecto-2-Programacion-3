@@ -6,63 +6,57 @@ public class Vehiculo {
     private String linea;
     private String modelo;
     private String propietario;
+    //constructor
+	public Vehiculo(String placa, String color, String linea, String modelo, String propietario) {
+		this.placa = placa;
+		this.color = color;
+		this.linea = linea;
+		this.modelo = modelo;
+		this.propietario = propietario;
+	}
+	//setters y getters
+	public String getPlaca() {
+		return placa;
+	}
 
-    public Vehiculo(String placa, String color, String linea, String modelo, String propietario) {
-        this.placa = placa;
-        this.color = color;
-        this.linea = linea;
-        this.modelo = modelo;
-        this.propietario = propietario;
-    }
+	public void setPlaca(String placa) {
+		this.placa = placa;
+	}
 
-    @Override
-    public String toString() {
-        return "Vehiculo{" +
-                "placa='" + placa + '\'' +
-                ", color='" + color + '\'' +
-                ", linea='" + linea + '\'' +
-                ", modelo='" + modelo + '\'' +
-                ", propietario='" + propietario + '\'' +
-                '}';
-    }
+	public String getColor() {
+		return color;
+	}
 
-    public String getPlaca() {
-        return placa;
-    }
+	public void setColor(String color) {
+		this.color = color;
+	}
 
-    public void setPlaca(String placa) {
-        this.placa = placa;
-    }
+	public String getLinea() {
+		return linea;
+	}
 
-    public String getColor() {
-        return color;
-    }
+	public void setLinea(String linea) {
+		this.linea = linea;
+	}
 
-    public void setColor(String color) {
-        this.color = color;
-    }
+	public String getModelo() {
+		return modelo;
+	}
 
-    public String getLinea() {
-        return linea;
-    }
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
+	}
 
-    public void setLinea(String linea) {
-        this.linea = linea;
-    }
+	public String getPropietario() {
+		return propietario;
+	}
 
-    public String getModelo() {
-        return modelo;
-    }
+	public void setPropietario(String propietario) {
+		this.propietario = propietario;
+	}
 
-    public void setModelo(String modelo) {
-        this.modelo = modelo;
-    }
-
-    public String getPropietario() {
-        return propietario;
-    }
-
-    public void setPropietario(String propietario) {
-        this.propietario = propietario;
+	@Override
+	public String toString() {
+        return "Vehiculo{" + "Placa:" + placa + ", Color:" + color + ", Linea:" + linea + ", Modelo:" + modelo + ", Propietario:" + propietario + '}';
     }
 }
