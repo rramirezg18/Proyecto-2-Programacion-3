@@ -85,6 +85,7 @@ Este manual proporciona una visión técnica del sistema de gestión de vehícul
 
 .. Representa un vehículo con sus atributos como placa, color, línea, modelo y propietario.
 .. Proporciona métodos para establecer y obtener los valores de los atributos.
+
 ---
 ---
 
