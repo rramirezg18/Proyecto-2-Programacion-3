@@ -55,8 +55,10 @@ Al iniciar el programa, se mostrará un menú principal con las siguientes opcio
 
 -- Para salir del programa, selecciona la opción "4" en el menú principal.
 ### Notas Adicionales
+
 -- Si el programa muestra un mensaje de error, sigue las instrucciones en pantalla para corregir el problema.
 -- Se recomienda ingresar datos válidos y seguir las instrucciones del programa para un uso óptimo.
+
 ---
 ---
 ### descripcion 
