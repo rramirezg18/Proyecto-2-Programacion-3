@@ -55,6 +55,7 @@ Al iniciar el programa, se mostrará un menú principal con las siguientes opcio
 
 -- Para salir del programa, selecciona la opción "4" en el menú principal.
 ### Notas Adicionales
+
 -- Si el programa muestra un mensaje de error, sigue las instrucciones en pantalla para corregir el problema.
 -- Se recomienda ingresar datos válidos y seguir las instrucciones del programa para un uso óptimo.
 
@@ -84,6 +85,7 @@ Este manual proporciona una visión técnica del sistema de gestión de vehícul
 
 .. Representa un vehículo con sus atributos como placa, color, línea, modelo y propietario.
 .. Proporciona métodos para establecer y obtener los valores de los atributos.
+
 ---
 ---
 
