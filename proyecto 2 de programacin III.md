@@ -603,7 +603,7 @@ Al compilar el algoritmo nos muestra un menu con las opciones:
 
 ---
 --- 
-![OPCION 2](imagen2.jpg)
+![OPCION 2](Imagen2.jpg)
 ---
 --- 
 ### opcion 3 Eliminar vehiculo

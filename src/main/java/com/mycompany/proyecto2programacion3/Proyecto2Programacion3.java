@@ -9,6 +9,8 @@ package com.mycompany.proyecto2programacion3;
  * Jean Klaus Castañeda Santos		7690-22-892
  * Roberto Antonio Ramírez Gómez	7690-22-12700		
  * Jonathan Joel Chan Cuellar		7690-22-1805
+ * 
+ * 
  */
 
 import java.util.*;
