@@ -2,9 +2,8 @@
 <h1><strong>PROYECTO 2 PROGRAMACION 3</strong></h1>
 </div>
 ---
+# **Proyecto desarrollado por:**
 ---
-**Proyecto desarrollado por:**
-
 #### Roberto Antonio Ramirez Gomez 7690-22-12700
 
 #### Jean Klaus Castañeda Santos 7690-22-892
